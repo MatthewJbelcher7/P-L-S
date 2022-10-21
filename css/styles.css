@@ -12,14 +12,11 @@ button {
   border-radius: 10px;
 }
 
-h2 {
-  color: rgb(87, 87, 241);
-  margin: 5px ;
-}
+
 
 label {
-  color: lightblue;
-  margin: 25px;
+  color: rgb(224, 224, 224);
+  margin: 60px;
 }
 
 h1 {
@@ -29,6 +26,14 @@ h1 {
   padding: 15px 15px;
 }
 
+h2 {
+  color: rgb(87, 87, 241);
+  margin: 10px ;
+}
+h3 {
+  color: rgb(247, 149, 58);
+  margin: 20px ;
+}
 p1 {
   color: rgb(105, 104, 104);
   background: rgb(70, 70, 70);
