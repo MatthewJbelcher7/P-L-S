@@ -1,3 +1,13 @@
 .hidden{
   display: none
 }
+
+body {
+  background-color: blueviolet;
+}
+
+button {
+  color: teal
+  border: 1px;
+  border-radius; 10px;
+}
