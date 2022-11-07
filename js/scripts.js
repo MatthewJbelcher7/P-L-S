@@ -1,4 +1,4 @@
-const element = document.getElementById("submission");
+const element = document.getElementById("submit");
 element.addEventListener("click", addAnswers);
 
 function addAnswers() {
@@ -47,3 +47,7 @@ function addAnswers() {
   }
 }
 
+function resetPage() {
+  var result = document.getElementById('submission');
+  result.innerHTML = "Awaiting Submission";
+}
