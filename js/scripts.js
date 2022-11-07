@@ -11,20 +11,22 @@ var selection = document.getElementsByClassName('input');
 
 for (i=0; i<selection.length; i++) {
   if (selection[i].checked) {
-    if (selection[i].value == 's1') {
+    if (selection[i].value == 'one') {
       s1selection = s1selection + 1;
     }
-    if (selection[i].value == 's2') {
+    if (selection[i].value == 'two') {
       s2selection = s2selection + 1;
     }
-    if (selection[i].value == 's3') {
+    if (selection[i].value == 'three') {
       s3selection = s3selection + 1;
     }
-    if (selection[i].value == 's4') {
+    if (selection[i].value == 'four') {
       s4selection = s4selection + 1;
     }
   }
 }
+
+
 
 fuction clearAwnser() {
   var answerbox = document.getElementById("answer");
